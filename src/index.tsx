@@ -1,3 +1,3 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import { heightPercentageToDP, widthPercentageToDP } from './Responsive';
+import ThemeUtils from './ThemeUtils';
+export { heightPercentageToDP, widthPercentageToDP, ThemeUtils };
